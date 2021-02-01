@@ -1,0 +1,19 @@
+{
+  "include": ["app/components/primer"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "app/components/primer",
+    "declaration": true,
+    "declarationDir": "dist",
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "lib": ["es6", "dom", "dom.iterable"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2020"
+  }
+}
+
