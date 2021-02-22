@@ -20,6 +20,9 @@
   "bugs": {
     "url": "https://github.com/primer/view_components/issues"
   },
+  "scripts": {
+    "prepare": "tsc && rollup -c"
+  },
   "homepage": "https://github.com/primer/view_components#readme",
   "dependencies": {
     "@github/time-elements": "^3.1.1"
