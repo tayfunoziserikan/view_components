@@ -6,6 +6,6 @@ class TimeAgoComponentIntegrationTest < ApplicationSystemTestCase
   def test_integration
     visit("/")
 
-    assert_selector("time-ago", text: "")
+    assert_selector("time-ago", text: "now")
   end
 end
