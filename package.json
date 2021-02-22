@@ -1,0 +1,27 @@
+{
+  "name": "view_components",
+  "version": "0.0.20",
+  "description": "ViewComponents for the Primer Design System",
+  "main": "app/assets/javascripts/primer.js",
+  "module": "app/components/primer/primer.js",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-typescript": "^8.2.0",
+    "mocha": "^8.3.0",
+    "rollup": "^2.39.0",
+    "typescript": "^4.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/primer/view_components.git"
+  },
+  "author": "GitHub (https://github.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/primer/view_components/issues"
+  },
+  "homepage": "https://github.com/primer/view_components#readme",
+  "dependencies": {
+    "@github/time-elements": "^3.1.1"
+  }
+}
