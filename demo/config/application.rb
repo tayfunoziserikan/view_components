@@ -18,6 +18,7 @@ module Demo
     # Initialize configuration defaults for originally generated Rails version.
     config.view_component_storybook.show_stories = true
     config.action_dispatch.default_headers.clear
+    config.hosts << "*"
 
     config.action_dispatch.default_headers = {
       "Access-Control-Allow-Origin" => "*",
