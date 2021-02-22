@@ -2,6 +2,8 @@
 
 ## main
 
+* Add `TimeAgo` component.
+
 ## 0.0.19
 
 * Add support for functional colors to `color` system argument.
