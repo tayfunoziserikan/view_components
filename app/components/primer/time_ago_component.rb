@@ -6,7 +6,7 @@ module Primer
     def initialize(time:, micro: false, **system_arguments)
       @system_arguments = system_arguments
       @system_arguments[:datetime] = time.utc.iso8601
-      @system_arguments[:classes] = "no-wrap"
+      @system_arguments[:classes] = class_names("no-wrap", @system_arguments[:classes])
       @system_arguments[:tag] = "time-ago"
       @system_arguments[:format] = "micro" if micro
       @content = if micro
