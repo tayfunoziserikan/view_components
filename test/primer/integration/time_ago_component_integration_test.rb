@@ -4,7 +4,7 @@ require "application_system_test_case"
 
 class TimeAgoComponentIntegrationTest < ApplicationSystemTestCase
   def test_integration
-    visit("/")
+    visit("/time_ago")
 
     assert_selector("time-ago", text: "now")
   end
